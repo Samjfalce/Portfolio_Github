@@ -50,7 +50,7 @@ img {
 .logo_name {
     display: flex;
     flex-direction: column;
-    padding-top: 337px;
+    padding-top: 300px;
     padding-bottom: 337px;
     padding-left: 135px;
     justify-content: space-between;
