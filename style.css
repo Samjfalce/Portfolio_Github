@@ -16,7 +16,11 @@
 body {
     background-color: #151515;
 }
-
+h1 {
+    font-family: "aoki_reg", "exo 2";
+    font-size: 60px;
+    color: white;
+}
 h2{
     font-family: "aoki", sans-serif;
     font-weight: 500;
@@ -25,6 +29,31 @@ h2{
     margin-block-start: 0px !important;
     margin-block-end: 0px !important;
 }
+h3 {
+    font-family: "aoki", "exo 2";
+    font-size: 40px;
+    color: white;
+}
+
+h4 {
+    font-family: "exo 2", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: #c4c4c4;
+}
+h5 {
+    font-family: "aoki_reg", "exo 2";
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}
+h6 {
+    font-family: "exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
 img {
     max-width: 100%;
     max-height: 100%;
@@ -36,7 +65,7 @@ img {
     background-image: url(Images/Cube_BG_HERO.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 60%;
+    width: 55%;
     height: auto;
 }
 .hero_image {
@@ -111,4 +140,99 @@ button {
 }
 .hero_buttons {
     padding-top: 72px;
+}
+.cube1 {
+    display: flex;
+    width: 33%;
+    height: auto;
+
+}
+.cube2 {
+    display: flex;
+    width: 33%;
+    height: auto;
+
+}
+.cube3 {
+    display: flex;
+    width: 33%;
+    height: auto;
+
+}
+.wannado {
+    display: flex;
+    margin-top: 265px;
+    margin-left: 160px;
+    margin-right: 160px;
+    width: 50%;
+    height: auto;
+    align-items: center;
+}
+.wannado_text {
+    width: 50%;
+    height: auto;
+    margin-left: 135px;
+    align-content: flex;
+    
+}
+.swallow {
+    display: flex;
+    margin-top: 216px;
+    margin-left: 160px;
+    margin-right: 160px;
+    width: 50%;
+    height: auto;
+    align-items: center;
+}
+.swallow_text {
+    width: 50%;
+    height: auto;
+    margin-left: 160px;
+    margin-right: 135px;
+    align-content: flex;
+    order: -1;
+    
+}
+.fcc {
+    display: flex;
+    margin-top: 265px;
+    margin-left: 160px;
+    margin-right: 160px;
+    width: 50%;
+    height: auto;
+    align-items: center;
+}
+.fcc_text {
+    width: 50%;
+    height: auto;
+    margin-left: 216px;
+    align-content: flex;
+    
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-image: url(Images/footer_cubes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 208px;
+}
+.footer_logo {
+    display: flex;
+    align-self: center;
+    width: 238px;
+    height: 321px;
+    
+}
+.footer_contact {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.footer_social {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
