@@ -58,7 +58,8 @@ img {
 }
 .titles {
     padding-left: 25px;
-    font-family: "aoki";
+    font-family: "aoki", sans-serif;
+    font-weight: 100 !important;
 }
 
 
@@ -70,6 +71,7 @@ img {
     justify-content: center;
     position: sticky;
     top: 0px;
+    bottom: 0px;
   
 }
 .left, .center, .right {
