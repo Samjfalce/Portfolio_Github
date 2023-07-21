@@ -1,15 +1,15 @@
 @font-face {
     font-family: aoki;
-    src: url(/Fonts/Aoki/Aoki\ Light.otf);
+    src: url(Fonts/Aoki/Webfonts/Aoki\ Light.woff2);
 
 }
 @font-face {
     font-family: aoki_reg;
-    src: url(Fonts/Aoki/Aoki\ Regular.otf);
+    src: url(Fonts/Aoki/Webfonts/Aoki\ Regular.woff2);
 }
 @font-face {
     font-family: Centauri;
-    src: url(Fonts/Sci+Fi+Bundle/Centauri.otf);
+    src: url(Fonts/Sci+Fi+Bundle/Webfonts/Centauri.woff);
 }
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&display=swap');
 
@@ -96,7 +96,7 @@ img {
     width: 100%;
     display: flex;
     background-color: #151515;
-    padding: 20px;
+    padding: 20px;         
     justify-content: center;
     position: sticky;
     top: 0px;
