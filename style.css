@@ -93,8 +93,8 @@ img {
 
 
 .nav {
-    margin-left: 160px;
-    margin-right: 160px;
+    max-width: 100%;
+   
     display: flex;
     background-color: #151515;
     padding: 20px;         
