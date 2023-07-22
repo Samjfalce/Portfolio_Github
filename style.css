@@ -93,11 +93,12 @@ img {
 
 
 .nav {
-    width: 100%;
+    margin-left: 160px;
+    margin-right: 160px;
     display: flex;
     background-color: #151515;
     padding: 20px;         
-    justify-content: center;
+    justify-content: space-around;
     position: sticky;
     top: 0px;
     bottom: 0px;
@@ -117,12 +118,7 @@ img {
     padding: 20px;
     color: #d0d0d0;
 }
-.right {
-  padding-left: 100px;
-} 
-.left {
-  padding-right: 100px;
-}
+
 .logo {
     padding: 0 20px;
     width: 40px;
