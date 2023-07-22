@@ -128,13 +128,16 @@ button {
     padding: 10px 40px;
     border-radius: 10px;
     background-color: #151515;
-    border-color: white;
+    border-color: #dcdcdc;
     border-style: solid;
-    color: white;
+    color: #dcdcdc;
     
 }
 .hero_buttons {
     padding-top: 72px;
+}
+.work_button {
+    margin-left: 32px;
 }
 .cube1 {
     display: flex;
