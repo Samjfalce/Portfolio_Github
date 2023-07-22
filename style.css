@@ -127,7 +127,7 @@ button {
     font-family: "aoki_reg", sans-serif;
     padding: 10px 40px;
     border-radius: 10px;
-    background-color: #151515;
+    background: none;
     border-color: #dcdcdc;
     border-style: solid;
     color: #dcdcdc;
