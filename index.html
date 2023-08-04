@@ -8,19 +8,21 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
       <header> 
         
       </header>
+      <section id="hero">
       <div class="hero_content">
         <div class="hero_cubes">
           <div class="logo_name">
               <img src="Images/Logo_Name.png" alt="SAMUEL LAFALCE">
               <div class="titles"><h2> UX/UI design  | Web Design | Musician</h2>
                 <div class="hero_buttons">
-                  <a class="cta1" href="#"><button class="about_button">ABOUT ME</button></a>
-                  <a class="cta2" href="#"><button class="work_button"> MY WORK</button></a>
+                  <a class="cta1" href="#work"><button class="about_button">My Work</button></a>
+                  <a class="cta2" href="#work"><button class="work_button"> About me</button></a>
                 </div>  
               </div> 
           </div>
@@ -29,34 +31,39 @@
           <img src="Images/Hero_Image.png" alt="Picture of Samuel">
         </div>
       </div>
-      <div class="nav">
+      </section>
+
+      <div class="nav" data-aos="fade-in">
+         <a href="#work">My Work</a>
          <a href="#">About</a>
-         <a href="https://samjfalce.github.io/portfolio_work/">Portfolio</a>
-         <img class="logo" src="Images/Logo.png">
+         <div>
+         <a href="#hero"><img class="logo" src="Images/Logo.png"></a>
+        </div>
          <a href="#">Music</a>
          <a href="#">Contact</a>
        </div>
+       <section id="work"></section>
        <section id="my_work">
       
       <div>
-        <img class="wannado_img" src="Images/wannado_mockup.png" alt="WannaDO Mockups">
+        <img class="wannado_img" src="Images/wannado_mockup.png" alt="WannaDO Mockups" data-aos="fade-up-right">
       </div>
-        <div class="wannado_text">
+        <div class="wannado_text" data-aos="fade-up-left">
         <h3>Mobile Activity Randomizer</h3>
         <h1> WannaDO </h1>
         <h4>WannaDO is a native mobile app that randomly suggests activities near you, taking the guessing and stressing out of your next outing.  </h4>
         </div>
       
 
-        <div class="swallow_text">
+        <div class="swallow_text" data-aos="fade-up-right">
         <h3>Non-Profit Website Redesign</h3>
         <h1> Swallow Hill Music </h1>
         <h4>A visual redesign of Swallow Hill Music's website, as well as a complete overhaul on their ticket purchasing and lesson signup system.   </h4>
         </div>
-        <img class="swallow_img" src="Images/swallow_mockup.png" alt="Swallow Hill Mockups">
+        <img class="swallow_img" src="Images/swallow_mockup.png" alt="Swallow Hill Mockups" data-aos="fade-up-left">
       
-        <img class="fcc_img" src="Images/fcc_mockup.png" alt="FCC.gov Mockups">
-        <div class="fcc_text">
+        <img class="fcc_img" src="Images/fcc_mockup.png" alt="FCC.gov Mockups" data-aos="fade-up-right">
+        <div class="fcc_text" data-aos="fade-up-left">
         <h3>Government Website Redesign</h3>
         <h1> FCC.GOV </h1>
         <h4>A responsive redesign of the Federal Communication Commission's website, including the navigation system and information architecture.    </h4>
@@ -77,6 +84,16 @@
         </div>
 
       </div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 500,
+          easing: 'ease',
+          once: false,
+
+        });
+      </script>
+      <script src="script.js"></script>
 
 
     </body>

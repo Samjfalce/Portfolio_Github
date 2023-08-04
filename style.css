@@ -14,7 +14,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&display=swap');
 
 body {
-    background-color: #151515;
+    background-color: #141414;
 }
 h1 {
     font-family: "aoki_reg", "exo 2";
@@ -86,6 +86,7 @@ img {
     background: none;
 }
 .titles {
+    margin-left: -10px;
     padding-left: 25px;
     font-family: "aoki", sans-serif;
     font-weight: 100 !important;
@@ -176,12 +177,15 @@ button {
 
 
 }
+#work {
+    height: 104px;
+}
 #my_work {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 135px;
     width: 100%;
-    margin-top: 204px;
+    margin-top: 104px;
     padding: 0px 160px;
     align-items: center;
     justify-content: center;
@@ -203,6 +207,7 @@ button {
     background-position-y: top;
     max-width: 100%;
     padding-right: 100px;
+    
 }
 .fcc_text {
     background-image: url(Images/cube_bg_3.png);
