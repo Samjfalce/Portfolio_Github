@@ -145,17 +145,19 @@ button {
     color: white;
     text-shadow: 0px 0px 10px white;
     box-shadow: 0px 0px 10px white;
+    cursor: pointer;
   }
   .about_button:hover {
     border-color: white;
     color: white;
     text-shadow: 0px 0px 10px white;
     box-shadow: 0px 0px 10px white;
+    cursor: pointer;
   }
 .hero_buttons {
     padding-top: 72px;
 }
-.work_button {
+.about_button {
     margin-left: 32px;
 }
 .cube1 {
